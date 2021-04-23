@@ -10,8 +10,12 @@ The purpose of this kickstarter analysis was to compare how the fundraiser for L
 ### Analysis of Outcomes Based on Launch Date
 This analysis was performed using a PivotTable compiled from all "Kickstarter" campaign data and then filtered by the "Theater" parent category. These data were then grouped into the number of "Successful", "Failed", and "Canceled" campaigns in each of the 12 months of the years 2009-2017. We then created a PivotChart line graph to visually analyze these data and identify any trends. This graph ("Theater Outcomes Based on Launch Date") can be found in the "Resources" folder for this project.
 
+![Image of Theater Outcomes vs Launch](https://github.com/jpb12002/kickstarter-analysis/blob/1804cef466efab64bdfc20a6c9b47daa422c68cd/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 This analysis was performed by creating a new worksheet in which the number of "Successful", "Failed", and "Canceled" of the "Kickstarter" campaign data were grouped by ranges of goal amounts (i.e., less than $1000, $1000 to $4999, etc.). The data was futher filtered to only include campaigns for the "Plays" subcategory. We then calculated the percentage of each outcome for the various goal amount ranges. A line graph was created to visually analyze these data calculations and identify any trends. This graph ("Outcomes Based on Goal") can be found in the "Resources" folder for this project.
+
+![Image of Outcomes vs Goals](https://github.com/jpb12002/kickstarter-analysis/blob/1804cef466efab64bdfc20a6c9b47daa422c68cd/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 A challenge that was encountered during the "Outcomes Based on Launch Date" analysis was filtering the outcomes in the PivotTable from largest to smallest so that "Successful" outcomes were seen in the first column. I had to keep applying the "Sort Z to A" filter on various fields in the chart until I found the right combination to produce the expected result (applying the filter on the "Column Labels" cell in the chart).  
